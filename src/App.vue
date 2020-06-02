@@ -1,22 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App" v-bind="post"/>
+    <SlotTest></SlotTest> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
+  data() {
+    return {
+      post: {
+        id: '12',
+        name: 'Liu'
+      }
+    }
   }
 }
 </script>
 
 <style>
+html {
+  background-image: url('./assets/background.jpeg');
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
