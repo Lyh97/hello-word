@@ -11,7 +11,7 @@ node {
         
         stage('Git pull'){
             sh 'pwd'
-            git credentialsId: '00a34c6f-043f-47cc-86ec-64172bdef13c', url: 'https://github.com/Lyh97/hello-word.git'
+            git credentialsId: 'e76c0a52-7b3d-492d-ac61-bb7334b23655', url: 'https://github.com/Lyh97/hello-word.git'
         }
         stage('Npm run build') {
             docker.image('node:14.4.0').inside {
