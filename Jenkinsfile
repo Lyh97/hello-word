@@ -11,6 +11,7 @@ node {
         
         stage('Git pull'){
             sh 'pwd'
+            sh 'git config --system --unset credential.helper'
             git credentialsId: 'e76c0a52-7b3d-492d-ac61-bb7334b23655', url: 'https://github.com/Lyh97/hello-word.git'
         }
         stage('Npm run build') {
