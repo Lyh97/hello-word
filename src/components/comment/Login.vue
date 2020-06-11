@@ -1,5 +1,9 @@
 <template>
+<<<<<<< HEAD
     <!-- Hello world 02-->
+=======
+    <!-- Hello world 01-->
+>>>>>>> f8e708310c442167f5ffff5c5e85f468fe56b6e5
     <div id="login-body">
         <div class="login-title">大风狗公司登录页面</div>
         <div class="login-form">
