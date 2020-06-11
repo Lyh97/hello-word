@@ -1,7 +1,7 @@
 <template>
     <!-- Hello world 04-->
     <div id="login-body">
-        <div class="login-title">*大风狗*公司登录页面</div>
+        <div class="login-title">大风狗~公司登录页面</div>
         <div class="login-form">
             <div class="login-form-title">用户登录/UserLogin</div>
             <div class="login-userInfo" >
